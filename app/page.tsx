@@ -407,23 +407,42 @@ export default function Home() {
             </div>
             <div className='flex flex-col md:flex-row w-full'>
               <div className='w-full'>
-                <h6 className='mb-4 px-4 text-xs text-muted-foreground'>Social</h6>
+                <h6 className='mb-4 px-4 text-xs text-muted-foreground'>BITCOIN SOCIALS</h6>
                 <ul className='flex flex-col justify-between gap-2 text-gray-400'>
-                  <li>
+                                    <li>
                     <Button className='text-white' variant='link' asChild>
                       <Link
-                        href='https://njump.me/nprofile1qqsxphhzhhxepm2csvpfgcs2zselmgst7v8k2fs5k58j35hw605c8wgtxthlw'
+                        href='https://irl.travel'
                         target='_blank'
                       >
-                        Nostr
+                        IRL.travel
                         <ArrowUpRight />
                       </Link>
                     </Button>
                   </li>
                   <li>
                     <Button className='text-white' variant='link' asChild>
-                      <Link href='https://t.me/lnpos' target='_blank'>
-                        Telegram
+                      <Link
+                        href='https://jerseyclub.io'
+                        target='_blank'
+                      >
+                        JERSEYCLUB.io
+                        <ArrowUpRight />
+                      </Link>
+                    </Button>
+                  </li>
+                  <li>
+                    <Button className='text-white' variant='link' asChild>
+                      <Link href='https://atl5d.shop' target='_blank'>
+                        ATL5D.shop
+                        <ArrowUpRight />
+                      </Link>
+                    </Button>
+                  </li>
+                  <li>
+                    <Button className='text-white' variant='link' asChild>
+                      <Link href='https://atl5d.shop' target='_blank'>
+                        TWERK.dance
                         <ArrowUpRight />
                       </Link>
                     </Button>
@@ -431,12 +450,12 @@ export default function Home() {
                 </ul>
               </div>
               <div className='w-full'>
-                <h6 className='mb-4 px-4 text-xs text-muted-foreground'>About us</h6>
+                <h6 className='mb-4 px-4 text-xs text-muted-foreground'>ABOUT</h6>
                 <ul className='flex flex-col justify-between gap-2 text-gray-400'>
                   <li>
                     <Button className='text-white' variant='link' asChild>
-                      <Link href='https://github.com/unllamas/lightning-pos/' target='_blank'>
-                        Documentation
+                      <Link href='https://blkluv.org' target='_blank'>
+                        BLKLUV.org
                         <ArrowUpRight />
                       </Link>
                     </Button>
@@ -445,10 +464,10 @@ export default function Home() {
                     <Button className='text-white' variant='link' asChild>
                       <Link
                         className='hover:text-white transition-colors duration-200'
-                        href='https://geyser.fund/project/lightningpos'
+                        href='https://donate.stripe.com/6oE15p25F5zuby85kq'
                         target='_blank'
                       >
-                        Donate
+                        DONATE
                         <ArrowUpRight />
                       </Link>
                     </Button>
